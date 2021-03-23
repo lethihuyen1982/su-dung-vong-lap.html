@@ -10,13 +10,15 @@
 
 <body>
     <script>
-        let password
-        while (password != "vung oi mo ra")
-            do {
-                password = prompt("ban hay nhap mat khau:");
-                document.write(password);
-            }
-
+        let counter = Number(prompt("ban muon in bao nhieu so chan?"));
+        let i = 0
+        while (counter < 11) {
+            document.write(i)
+            i=i+2
+            counter ++
+        }
+        
+        
     </script>
 </body>
 
